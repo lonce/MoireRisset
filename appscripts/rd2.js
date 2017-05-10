@@ -4,7 +4,7 @@ Great resource for Dynamnic SVG:
 */
 
 require.config({
-	paths: {"jsaSound": "http://animatedsoundworks.com:8001"}
+	paths: {"jsaSound": "https://animatedsoundworks.com"}
 });
 require(
 	["require", "utils", "specularBall", "myRissetBeats"],
