@@ -1,0 +1,18 @@
+html, body {
+	background-color: black;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+h2 {
+	color : white;
+}
+
+#svg_area, #svg_div {
+	width: 100%;
+	height: 100%;	
+}
+
+
