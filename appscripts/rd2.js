@@ -97,8 +97,6 @@ require(
 
 
 
-		init();
-		rbSnd.setParam("play", 1);
 		//svgelmt.appendChild(wierdo);
 
 		var j=0;
@@ -123,7 +121,12 @@ require(
 
 		//--------------------------------------------
 
-		myrequestAnimationFrame(animate);
+		document.getElementById("startbutton").addEventListener('click',function(ev){
+				init();
+				rbSnd.setParam("play", 1);
+				myrequestAnimationFrame(animate);
+				ev.target.style.display='none';
+		});
 
 	}
 );
